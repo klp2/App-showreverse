@@ -2,6 +2,8 @@
 use strict;
 use warnings;
 
+use 5.10.0;
+
 package App::showreverse;
 
 use base qw(App::Cmd::Simple);
@@ -38,11 +40,11 @@ sub execute {
             my $reverse = join( '.', reverse( split /\./, $ip ) ) . '.in-addr.arpa';
             if ( my $ap = $resolver->query( $reverse, 'PTR' ) ) {
                 for my $pa ( $ap->answer ) {
-                    print "$ip => ", $pa->ptrdname, $/;
+                    say "$ip => " . $pa->ptrdname;
                 }
             }
             else {
-                print "$ip => NXDOMAIN\n";
+                say "$ip => NXDOMAIN";
             }
         }
     }
