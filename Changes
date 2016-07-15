@@ -3,8 +3,26 @@ Changes from 2016-07-15 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2016-07-15 03:45:49 +0000
+version 0.0.1 at 2016-07-15 03:49:51 +0000
 ------------------------------------------
+
+  Change: f7726b22e2f31878fca64cf899a33a098fdaab0d
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:49:43 +0000
+
+    updates for .gitignore 
+
+  Change: c6e6bd7bbfb351b788bc50aaee08ac6f2c11a36f
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:47:23 +0000
+
+    track build scripts and etc 
+
+  Change: 19da6fb88e799d8e33ff11d50ab27ef6ff05e2aa
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:46:23 +0000
+
+    require perl 5.10.0 
 
   Change: e92c5bc73ee57c4e3d6fbc98578d18e604311e86
   Author: Kevin Phair <phair.kevin@gmail.com>
