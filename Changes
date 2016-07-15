@@ -3,8 +3,26 @@ Changes from 2016-07-15 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.1 at 2016-07-15 03:49:51 +0000
+version 0.0.1 at 2016-07-15 04:14:56 +0000
 ------------------------------------------
+
+  Change: d61108ad8b7959d147c2b0f31f18d41789b9f348
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-15 00:14:45 +0000
+
+    gain a bit of speed 
+
+  Change: 4591f63601ff29f7dac41b362f9c1c39a97f92a9
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:57:07 +0000
+
+    add README 
+
+  Change: 3f6e043fd61478abbef8e8b020713e496c014be8
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:50:21 +0000
+
+    use semantic versioning 
 
   Change: f7726b22e2f31878fca64cf899a33a098fdaab0d
   Author: Kevin Phair <phair.kevin@gmail.com>
