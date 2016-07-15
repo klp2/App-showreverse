@@ -1,0 +1,23 @@
+==================================================
+Changes from 2016-07-15 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.001 at 2016-07-15 03:45:49 +0000
+------------------------------------------
+
+  Change: e92c5bc73ee57c4e3d6fbc98578d18e604311e86
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:38:55 +0000
+
+    fix some things, tidy up, use the things 
+
+  Change: c2ebc5c80dda832d47e366f93c48ee0736a0f83c
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-14 23:13:36 +0000
+
+    initial commit of showreverse utility 
+
+================
+End of releases.
+================
