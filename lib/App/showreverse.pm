@@ -32,6 +32,7 @@ sub execute {
     my @blocks = @{$args};
 
     my $resolver = Net::DNS::Resolver->new;
+    $resolver->persistent_udp(1);
 
     for my $block (@blocks) {
         my $n = Net::Works::Network->new_from_string(string => $block);
