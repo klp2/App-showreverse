@@ -2,7 +2,9 @@
 argv = --profile $ROOT/.perlcriticrc --program-extensions .pl
 select = **/*.{pl,pm}
 select = bin/*
-except_modes = editor test
+ignore = **/blib/**/*.{pm}
+ignore = blib/**/*.pm
+ignore = **/*.pm
 
 [PerlTidy]
 diff_on_tidy_error = 1

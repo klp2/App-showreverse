@@ -29,6 +29,7 @@ my %module_build_args = (
     "Net::CIDR" => "0.18",
     "Net::DNS" => "1.01",
     "Net::Works::Network" => "0.21",
+    "autodie" => 0,
     "base" => 0,
     "perl" => "v5.10.0",
     "strict" => 0,

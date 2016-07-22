@@ -1,10 +1,28 @@
 ==================================================
-Changes from 2016-07-15 00:00:00 +0000 to present.
+Changes from 2016-07-22 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.1 at 2016-07-15 04:14:56 +0000
+version 0.0.1 at 2016-07-22 03:17:38 +0000
 ------------------------------------------
+
+  Change: b65a996c1898530e3e96cd3ab09333015e07be07
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-21 23:17:29 +0000
+
+    use autodie, tidy up 
+
+  Change: 1a3efb2c240083ee13bb69d6dec5409b6874e299
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-21 22:47:43 +0000
+
+    housekeeping configs 
+
+  Change: bc1475c5f82c35d8e9fef133037284db4bc568ce
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-15 00:15:36 +0000
+
+    update Changes 
 
   Change: d61108ad8b7959d147c2b0f31f18d41789b9f348
   Author: Kevin Phair <phair.kevin@gmail.com>
