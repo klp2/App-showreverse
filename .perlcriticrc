@@ -1,0 +1,62 @@
+severity = 3
+verbose = 11
+
+theme = core + pbp + bugs + maintenance + cosmetic + complexity + security + tests
+
+[BuiltinFunctions::ProhibitStringySplit]
+severity = 3
+
+[CodeLayout::RequireTrailingCommas]
+severity = 3
+
+[ControlStructures::ProhibitCStyleForLoops]
+severity = 3
+
+[Documentation::RequirePackageMatchesPodName]
+severity = 3
+
+[Documentation::PodSpelling]
+severity = 3
+stop_words_file = .stopwords
+
+[NamingConventions::Capitalization]
+package_exemptions = showreverse
+file_lexical_variables = [A-Z]\w+|[^A-Z]+
+global_variables = :starts_with_upper
+scoped_lexical_variables = [A-Z]\w+|[^A-Z]+
+severity = 3
+
+[Subroutines::ProhibitManyArgs]
+
+[RegularExpressions::ProhibitComplexRegexes]
+max_characters = 200
+
+[RegularExpressions::ProhibitUnusualDelimiters]
+severity = 3
+
+[Subroutines::ProhibitUnusedPrivateSubroutines]
+
+[TestingAndDebugging::ProhibitNoWarnings]
+
+[ValuesAndExpressions::ProhibitEmptyQuotes]
+severity = 3
+
+[ValuesAndExpressions::ProhibitInterpolationOfLiterals]
+severity = 3
+
+[ValuesAndExpressions::RequireUpperCaseHeredocTerminator]
+severity = 3
+
+[Variables::ProhibitPackageVars]
+add_packages = Test::Builder
+
+[TestingAndDebugging::RequireUseStrict]
+
+[TestingAndDebugging::RequireUseWarnings]
+
+[-RegularExpressions::RequireDotMatchAnything]
+[-RegularExpressions::RequireExtendedFormatting]
+[-RegularExpressions::RequireLineBoundaryMatching]
+
+[-ValuesAndExpressions::ProhibitVersionStrings]
+

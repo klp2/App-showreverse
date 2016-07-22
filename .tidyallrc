@@ -1,6 +1,31 @@
+[PerlCritic]
+argv = --profile $ROOT/.perlcriticrc --program-extensions .pl
+select = **/*.{pl,pm}
+select = bin/*
+except_modes = editor test
+
 [PerlTidy]
-select = {lib,t,bin}/**/*.{pl,pm,t}
-argv = --profile=$ROOT/.perltidyrc
+diff_on_tidy_error = 1
+select = **/*.{pl,pm,t}
+select = cpanfile
+select = bin/*
+ignore = **/blib/**/*.{pm}
+argv = --profile=$ROOT/.perltidyallrc
+
+[PodSpell]
+select = lib/**/*.{pm,pod}
+select = bin/*
+ispell_argv = -p $ROOT/.stopwords
 
 [SortLines]
+diff_on_tidy_error = 1
 select = .gitignore
+
+[SortLines::Naturally]
+diff_on_tidy_error = 1
+select = .stopwords
+
+[Test::Vars]
+select = **/*.{pl,pm,t}
+ignore_file = $ROOT/.test-vars-ignore
+ignore = **/blib/**/*.{pm}
