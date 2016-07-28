@@ -18,12 +18,10 @@ sub validate_args {
     my ( $self, $opt, $args ) = @_;
 
     if ( @{$opt} ) {
-        $self->usage_error(
-            'Try #sr showreverse <space separated cidr blocks>');
+        $self->usage_error('Try #sr showreverse <space separated cidr blocks>');
     }
     if ( @{$args} < 1 ) {
-        $self->usage_error(
-            'Try #sr showreverse <space separated cidr blocks>');
+        $self->usage_error('Try #sr showreverse <space separated cidr blocks>');
     }
     my @blocks = @{$args};
     for my $block (@blocks) {
@@ -45,8 +43,8 @@ sub execute {
         my $n = Net::Works::Network->new_from_string( string => $block );
         my $i = $n->iterator;
         while ( my $ip = $i->() ) {
-            my $reverse
-                = join( '.', reverse( split /\./, $ip ) ) . '.in-addr.arpa';
+            my $reverse =
+              join( '.', reverse( split /\./, $ip ) ) . '.in-addr.arpa';
             if ( my $ap = $resolver->query( $reverse, 'PTR' ) ) {
                 for my $pa ( $ap->answer ) {
                     say "$ip => " . $pa->ptrdname;

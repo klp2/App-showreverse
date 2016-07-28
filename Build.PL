@@ -20,7 +20,7 @@ my %module_build_args = (
     "Kevin Phair <phair.kevin\@gmail.com>"
   ],
   "dist_name" => "App-showreverse",
-  "dist_version" => "0.0.1",
+  "dist_version" => "0.0.2",
   "license" => "bsd",
   "module_name" => "App::showreverse",
   "recursive_test_files" => 1,
