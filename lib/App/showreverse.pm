@@ -17,9 +17,6 @@ use Net::Works::Network 0.21;
 sub validate_args {
     my ( $self, $opt, $args ) = @_;
 
-    if ( @{$opt} ) {
-        $self->usage_error('Try #sr showreverse <space separated cidr blocks>');
-    }
     if ( @{$args} < 1 ) {
         $self->usage_error('Try #sr showreverse <space separated cidr blocks>');
     }
