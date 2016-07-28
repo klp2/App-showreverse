@@ -3,8 +3,20 @@ Changes from 2016-07-28 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.2 at 2016-07-28 15:20:02 +0000
+version 0.0.2 at 2016-07-28 15:43:35 +0000
 ------------------------------------------
+
+  Change: 240022fce326d2aba96d27c5caa81c0393ee67b7
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-28 11:43:31 +0000
+
+    I thought I was clever. I thought wrong 
+
+  Change: 4f4e5443d39e0dfaaed23ed1f7abfc484bc25570
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-28 11:21:02 +0000
+
+    tidy up, bump version, add MANIFEST, update other build files / Changes 
 
   Change: 534fb85e613b3bb82546b64588e351d92a52f737
   Author: Kevin Phair <phair.kevin@gmail.com>

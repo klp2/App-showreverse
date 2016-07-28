@@ -4,6 +4,8 @@ Changes
 LICENSE
 MANIFEST
 META.yml
+MYMETA.json
+MYMETA.yml
 Makefile.PL
 README.md
 bin/sr
