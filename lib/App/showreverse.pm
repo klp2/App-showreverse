@@ -4,7 +4,7 @@ package App::showreverse;
 #
 use strict;
 use warnings;
-use autodie qw( :all );
+use autodie qw( :default );
 
 use 5.10.0;
 
