@@ -1,10 +1,22 @@
 ==================================================
-Changes from 2016-07-28 00:00:00 +0000 to present.
+Changes from 2018-06-23 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.2 at 2016-07-28 15:43:35 +0000
+version 0.0.3 at 2018-06-23 15:57:20 +0000
 ------------------------------------------
+
+  Change: 24a43319e22d1992a108ebdb37915b1792dedfd9
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2018-06-23 11:56:56 +0000
+
+    clean up the manifest, tidy things 
+
+  Change: 27cb6d9e6bddb79bc7f0747b5c1fb88ec8d8eb80
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2016-07-28 11:44:09 +0000
+
+    update Changes/MANIFEST 
 
   Change: 240022fce326d2aba96d27c5caa81c0393ee67b7
   Author: Kevin Phair <phair.kevin@gmail.com>

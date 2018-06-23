@@ -1,5 +1,4 @@
 [PerlCritic]
-argv = --profile $ROOT/.perlcriticrc --program-extensions .pl
 select = **/*.{pl,pm}
 select = bin/*
 ignore = **/blib/**/*.{pm}
@@ -12,7 +11,6 @@ select = **/*.{pl,pm,t}
 select = cpanfile
 select = bin/*
 ignore = **/blib/**/*.{pm}
-argv = --profile=$ROOT/.perltidyallrc
 
 [PodSpell]
 select = lib/**/*.{pm,pod}
