@@ -8,4 +8,5 @@ MANIFEST.bak
 MYMETA.yml
 MYMETA.json
 .tidyall.d/
-
+nytprof/.*
+nytprof.out

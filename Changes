@@ -1,14 +1,26 @@
 ==================================================
-Changes from 2018-06-23 00:00:00 +0000 to present.
+Changes from 2023-06-21 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.0.3 at 2018-06-23 15:57:20 +0000
+version 0.0.3 at 2023-06-21 21:41:22 +0000
 ------------------------------------------
 
-  Change: 24a43319e22d1992a108ebdb37915b1792dedfd9
+  Change: 674851f8829862dafb868d79490a0392d020d09f
   Author: Kevin Phair <phair.kevin@gmail.com>
-  Date : 2018-06-23 11:56:56 +0000
+  Date : 2023-06-21 17:05:16 +0000
+
+    add some basic tests 
+
+  Change: 714826120e4c67910c31eeabf4a6e656291f2dc2
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2023-06-21 17:04:46 +0000
+
+    Create blank.yml 
+
+  Change: af2540202621b8e1f96145c2cf3acf3a683b768f
+  Author: Kevin Phair <phair.kevin@gmail.com>
+  Date : 2018-06-23 12:05:39 +0000
 
     clean up the manifest, tidy things 
 
